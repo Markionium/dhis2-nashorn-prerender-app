@@ -1,12 +1,6 @@
-var HelloNashorn = React.createClass({
-    render: function () {
-        return (
-            <div>Hello Nashorn</div>
-        );
-    }
-});
+import HelloNashorn from './HelloNashorn';
 
-var Application = React.createClass({
+const Application = React.createClass({
     render: function () {
         return (
             <html>
@@ -19,3 +13,5 @@ var Application = React.createClass({
         );
     }
 });
+
+module.exports = Application;

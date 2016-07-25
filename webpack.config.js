@@ -36,6 +36,8 @@ const webpackConfig = {
         path: __dirname + '/build',
         filename: 'app.js',
         publicPath: 'http://localhost:8081/',
+        library: 'Application',
+        libraryOutput: 'var',
     },
     module: {
         loaders: [
